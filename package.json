@@ -1,0 +1,40 @@
+{
+    "name": "@webextensions/simpleid",
+    "version": "0.0.0",
+    "description": "Generate simple unique ID strings (simpleid)",
+    "engines": {
+        "node": ">=18"
+    },
+    "main": "index.js",
+    "bin": {
+        "simpleid": "./cli.js"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "npm run lint"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/webextensions/simpleid.git"
+    },
+    "keywords": [
+        "generate",
+        "simple",
+        "unique",
+        "id",
+        "strings",
+        "uuid"
+    ],
+    "author": "https://www.webextensions.org/",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/webextensions/simpleid/issues"
+    },
+    "homepage": "https://github.com/webextensions/simpleid#readme",
+    "devDependencies": {
+        "eslint": "^8.50.0"
+    },
+    "dependencies": {
+        "commander": "^11.0.0"
+    }
+}
