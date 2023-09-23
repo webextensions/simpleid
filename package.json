@@ -1,6 +1,6 @@
 {
     "name": "@webextensions/simpleid",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "description": "Generate simple unique ID strings (simpleid)",
     "engines": {
         "node": ">=18"
