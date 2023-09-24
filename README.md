@@ -1,5 +1,5 @@
 # simpleid
-Generate simple unique ID strings (simpleid)
+Generate simple unique ID strings (`simpleid`)
 
 ## Rules
 * A `simpleid` is an alphanumeric code (`-` can be used as a separator)
@@ -18,12 +18,18 @@ Currently, there are no specific restrictions for:
 
 # Usage - via Command line
 
-## Install
+## Without installing
+
+```sh
+$ npx @webextensions/simpleid
+```
+
+
+## Install and run
 ```sh
 $ npm install --global @webextensions/simpleid
 ```
 
-## Run
 ```sh
 $ simpleid
 qn3k-vqtw-rp72

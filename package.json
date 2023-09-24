@@ -1,7 +1,7 @@
 {
     "name": "@webextensions/simpleid",
     "version": "0.0.3",
-    "description": "Generate simple unique ID strings (simpleid)",
+    "description": "Generate simple unique IDs (simpleid)",
     "engines": {
         "node": ">=18"
     },
@@ -22,8 +22,8 @@
         "simple",
         "unique",
         "id",
-        "strings",
-        "uuid"
+        "uuid",
+        "simpleid"
     ],
     "author": "https://www.webextensions.org/",
     "license": "MIT",
