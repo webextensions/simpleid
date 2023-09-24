@@ -1,9 +1,10 @@
-let getRandomValues;
+let cryptoLib = null;
 if (typeof crypto === 'undefined') {
-    getRandomValues = require('node:crypto').getRandomValues;
+    cryptoLib = require('node:crypto');
 } else {
-    getRandomValues = crypto.getRandomValues;
+    cryptoLib = crypto;
 }
+const getRandomValues = cryptoLib.getRandomValues.bind(cryptoLib);
 
 const pullAll = function (array, valuesToDelete) {
     const valuesToDeleteSet = new Set(valuesToDelete);
